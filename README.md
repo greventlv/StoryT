@@ -1,5 +1,7 @@
 # StoryT
 Dynamically construction sentences/paragraphs to help stimulate writing and a create your own story mode
+StoryTime: User creates story by inutting custom nouns, verbs, etc
+StorySmith: AI composes sentences with data
 
 # Requirements
 Made in Python 3.7.2
