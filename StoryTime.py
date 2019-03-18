@@ -1,4 +1,13 @@
 # -*- coding: cp1252 -*-
+
+# Import libraries
+import win32com.client
+
+# Definte important variables
+speaker = win32com.client.Dispatch("SAPI.SpVoice")
+
+###
+
 npersonself = 'Abe Lincoln'
 npersongood1 = 'Julio Diaz'
 npersongood2 = 'John Candy'
@@ -18,23 +27,23 @@ ngroup1 = 'Stabbing Westward'
 selfsaying =  'I must say, I have nothing to say'
 
 #
-npersonself = raw_input('What is your name?\n')
-npersongood1 = raw_input('Who is a good friend to you? Example: ' + npersongood1 + '\n')
-npersongood2 = raw_input('Who is another friend? Example: ' + npersongood2 + '\n')
-npersonbad1 = raw_input('Who is an evil person to you? Example: ' + npersonbad1 + '\n')
-npersonbadlive1 = raw_input('Where does this evil person reside? Example: ' + npersonbadlive1 + '\n')
-verb1 = raw_input('Type a past tense verb. Example: ' + verb1 + '\n')
-verbing1 = raw_input('State a present verb. (acting) Example: ' + verbing1 + '\n')
-verbing2 = raw_input('State a different present verb. Example: ' + verbing2 + '\n')
-verbing3 = raw_input('State another different present verb. Example: ' + verbing3 + '\n')
-problem1 = raw_input('Type a question you have asked yourself. Example: ' + problem1 + '\n')
-amounttime1 = raw_input('Give a measure of time. Example:' + amounttime1 + '\n')
-amounttime2 = raw_input('State a different measure of time. Example: ' + amounttime2 + '\n')
-amounttime3 = raw_input('State another different measure of time. Example: ' + amounttime3 + '\n')
-nitemgood1 = raw_input('What is your favorite Item (thing)? Example: ' + nitemgood1 + '\n')
-nitemsbad1 = raw_input('What is an item you very much dislike. Example: ' + nitemsbad1 + '\n')
-ngroup1 = raw_input('What is your favorite group (musical/political) Example: ' + ngroup1 + '\n')
-selfsaying = raw_input('What is your Favorite saying? Example: ' + selfsaying + '\n')
+npersonself = input('What is your name?\n')
+npersongood1 = input('Who is a good friend to you? Example: ' + npersongood1 + '\n')
+npersongood2 = input('Who is another friend? Example: ' + npersongood2 + '\n')
+npersonbad1 = input('Who is an evil person to you? Example: ' + npersonbad1 + '\n')
+npersonbadlive1 = input('Where does this evil person reside? Example: ' + npersonbadlive1 + '\n')
+verb1 = input('Type a past tense verb. Example: ' + verb1 + '\n')
+verbing1 = input('State a present verb. (acting) Example: ' + verbing1 + '\n')
+verbing2 = input('State a different present verb. Example: ' + verbing2 + '\n')
+verbing3 = input('State another different present verb. Example: ' + verbing3 + '\n')
+problem1 = input('Type a question you have asked yourself. Example: ' + problem1 + '\n')
+amounttime1 = input('Give a measure of time. Example:' + amounttime1 + '\n')
+amounttime2 = input('State a different measure of time. Example: ' + amounttime2 + '\n')
+amounttime3 = input('State another different measure of time. Example: ' + amounttime3 + '\n')
+nitemgood1 = input('What is your favorite Item (thing)? Example: ' + nitemgood1 + '\n')
+nitemsbad1 = input('What is an item you very much dislike. Example: ' + nitemsbad1 + '\n')
+ngroup1 = input('What is your favorite group (musical/political) Example: ' + ngroup1 + '\n')
+selfsaying = input('What is your Favorite saying? Example: ' + selfsaying + '\n')
 
 #Story1 = 'Dear Diary, I ' + verb1 + ' out of my house today. I ' + verb1 + 'ed into ' + npersonbad1 + ' accidentally outside of ' + npersonbadlive1 + '. I had to pass it because ' + npersongood2 + 's house is across from it. ' + npersonbad1 + ' looked at me and threw ' + nitemsbad1 + ' almost hitting me, while I was ' + verbing2 + '. My ' + verbing1 + ' of ' + nitemgood1 + ' made ' + npersonbad1 + ' ' + verb1 + ' away. I finally got to ' + npersongood2 + 's house ' + amounttime2 + ' later, to find ' + npersongood1 + ' was there ' + verbing3 + ' all the members of ' + ngroup1 + '. I was soo happy I shouted ' + selfsaying + ' for about ' + amounttime3 + '. I asked ' + npersongood1 + ' ' + problem1 + ', it took about ' + amounttime1 + ' before i got a clear cut answer, It was due to ' + ngroup1 + ' being there. It was ok, I was satisfied with the answer. All in All today was a good day.'
 #print Story1
@@ -45,4 +54,5 @@ print
 News3 = 'Oct. 6th - A new movie coming out dealing with the Common Orthodox Church said to hit theaters today, will have Christopher Walken as the young disillusioned Cardinal Pharisey. A french preist turned rogue after he found out he was a flaming homosexual. He commented IT IS! going to, BE! a, Good movie. ' + npersongood1 + ' will play the head of ' + ngroup1 + ', an anti-Church-Reform group based on Al-Queda tactics, saying The Church is fine the way it is, thats why were going to blow it up, killing ourselves in the process. ' + npersonself + ' will play an anti-semitic pope who falls in love with Rabbi ' + npersongood2 + ' a 14 year old castrated boy from Jerusalem. ' + npersonbad1 + ', the late Director, and member of the Church Reform Group, was found dead by many newyorkers last week, after a bomb in his car exploded. Most of the body was razed, but sent his head over busy streets where witnesses tried to preach to him. His last comment alive was; This will be a great movie, its soo crazy. Everyones is getting into their parts really well, they are treating it like a religion! If I didn not know anybetter, Id be scared of getting bombed by ' + ngroup1 + '. Only 2 other parts that were intact were found, his rectum which left streak marks all over the streets, and his scrotum (found inside his mouth). He had only one item at the time of the bombing, a ' + nitemsbad1 + ' attached to his perineum. Specialists dont know if the placement of this (or the scrotum) was due to the explosion. ' + npersongood1 + ' commented I hope he gets cured. ' + npersonself + ' said ' + selfsaying + ' which provided solice for all of us. A few muslims were infront of the New York grand theater protesting against the movie, saying Ach ell varschesezule semetism! which translates to We dont know what semitism is!. Police quickly be-headed the irate crowd, and everyone was filled with mirth.'
 
 
-print News3
+print (News3)
+speaker.Speak(News3)
